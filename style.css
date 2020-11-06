@@ -1,0 +1,43 @@
+body {
+  background: black;
+  color: mediumslateblue;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.box {
+  background: white;
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover,
+.box:focus {
+  background: lemonchiffon;
+}
+
+button {
+  outline: none;
+  margin-top: 1em;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background: mediumslateblue;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background 0.5s ease;
+}
+
+button:hover {
+  background: forestgreen;
+}
